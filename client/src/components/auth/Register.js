@@ -33,24 +33,21 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   }
   return (
     <div className='register'>
-      <Link to="/">
-      </Link>
       <div className="register-form">
         <h1>Create Account</h1>
-        <form className="form" onSubmit={(e) => onSubmit(e)}>
+        <form className="form" onSubmit={onSubmit}>
           <h5 className="text-size">Your name</h5>
           <input type="text"
-            type="text"
             name="name"
             value={name}
-            onChange={(e) => onChange(e)}
+            onChange={onChange}
           />
           <h5 className="text-size">Email</h5>
-          <input type="email"
+          <input
             type="email"
             name="email"
             value={email}
-            onChange={(e) => onChange(e)}
+            onChange={onChange}
           />
           <small className="form-text">
             This site uses Gravatar so if you want a profile image, use a
@@ -61,14 +58,14 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             type="password"
             name="password"
             value={password}
-            onChange={(e) => onChange(e)}
+            onChange={onChange}
           />
           <h5 className="text-size">Confirm Password</h5>
           <input
             type="password"
             name="password2"
             value={password2}
-            onChange={(e) => onChange(e)}
+            onChange={onChange}
           />
           <input type="submit" className="signIn" value="Register" />
           <p>
