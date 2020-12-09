@@ -74,4 +74,50 @@ Tech peoples - The naive tech learners who do not have proper guidance and platf
 
 The people from IT technical backgrounds, worldwide, students, learners, experts, web developers, programmers, system designers and all the people who want to take help or help others. 
 
+## Screenshots Walkthrough:
+
+### Landing Page
+
+![landing-page](https://user-images.githubusercontent.com/63305945/101695231-414ef400-3a9a-11eb-9cca-c105d9eaca15.png)
+
+### Register Page
+
+![register](https://user-images.githubusercontent.com/63305945/101695239-4449e480-3a9a-11eb-9fa0-f125b0a8d4c5.png)
+
+### Login Page
+
+![login](https://user-images.githubusercontent.com/63305945/101695244-46ac3e80-3a9a-11eb-99db-9db7dbab0fe1.png)
+
+### User Dashboard Page
+
+![dashboard](https://user-images.githubusercontent.com/63305945/101695247-490e9880-3a9a-11eb-9806-9edf94854ed6.png)
+
+### All User Profiles Page
+
+![all profiles](https://user-images.githubusercontent.com/63305945/101695259-4e6be300-3a9a-11eb-8669-703a97898408.png)
+
+### Individual Profile Page
+
+![profile individual](https://user-images.githubusercontent.com/63305945/101695274-5461c400-3a9a-11eb-8d14-2889fb4af362.png)
+
+### Individual Profile Page continued..
+
+![profile individual 2](https://user-images.githubusercontent.com/63305945/101695284-562b8780-3a9a-11eb-8974-ab586c08deab.png)
+
+### Posts Page
+
+![posts](https://user-images.githubusercontent.com/63305945/101695292-59267800-3a9a-11eb-919b-caf35c5cdee6.png)
+
+### Comments on Posts
+
+![comments on posts](https://user-images.githubusercontent.com/63305945/101695301-5c216880-3a9a-11eb-914c-b6b03ed2be62.png)
+
+### Add Education Page
+
+![add education](https://user-images.githubusercontent.com/63305945/101695309-62174980-3a9a-11eb-9e90-e4725d37ca66.png)
+
+### Add Experience Page
+
+![add experience](https://user-images.githubusercontent.com/63305945/101695311-63e10d00-3a9a-11eb-857e-237d166e148e.png)
+
 
