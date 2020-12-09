@@ -115,7 +115,7 @@ const EditProfile = ({
             onChange={(e) => onChange(e)}
           />
           <small className="form-text">
-            Could be your own or a company website
+            Please enter the URL in form of https://example.com
           </small>
         </div>
         <div className="form-group">
