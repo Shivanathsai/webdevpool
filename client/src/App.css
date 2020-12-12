@@ -382,7 +382,7 @@ button {
 /* Landing Page */
 .landing {
 	position: relative;
-	background: url("./img/cover.jpg") no-repeat center center/cover;
+	background: url("./img/fresh1.mp4") no-repeat center center/cover;
 	height: 100vh;
 }
 
@@ -621,6 +621,7 @@ button {
 
 .login {
 	display: flex;
+	position: relative;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 80px;
@@ -747,4 +748,18 @@ select {
 
 .text-size {
 	font-size: 1.02rem;
+}
+
+video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.form-blur {
+	filter: blur(2px);
+	-webkit-filter: blur(2spx);
 }

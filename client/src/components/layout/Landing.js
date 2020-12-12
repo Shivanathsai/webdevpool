@@ -10,6 +10,9 @@ const Landing = ({ isAuthenticated }) => {
 
   return (
     <section className="landing">
+      <video playsInline autoPlay muted loop poster="polina.jpg" id="bgvid">
+        <source src="https://vasurajan.com/fresh.mp4" type="video/mp4" />
+      </video>
       <div className="dark-overlay">
         <div className="landing-inner">
           <h3 style={{ color: "grey" }} className="large">Welcome to your most Professional Community</h3>
