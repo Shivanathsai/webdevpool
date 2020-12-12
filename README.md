@@ -78,7 +78,7 @@ The people from IT technical backgrounds, worldwide, students, learners, experts
 
 ### Landing Page
 
-![landing-page](https://user-images.githubusercontent.com/63305945/101695231-414ef400-3a9a-11eb-9cca-c105d9eaca15.png)
+![Screenshot (514)](https://user-images.githubusercontent.com/63305945/101983566-ed166080-3ca1-11eb-93a5-e3403bb49fbc.png)
 
 ### Register Page
 
