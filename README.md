@@ -84,6 +84,10 @@ The people from IT technical backgrounds, worldwide, students, learners, experts
 
 ![Signup](https://user-images.githubusercontent.com/63305945/102266336-50242380-3f3e-11eb-84f2-713433fb4862.png)
 
+### Registration Successful popup and mail sent to emailid
+
+![registration successful message](https://user-images.githubusercontent.com/63305945/102267726-55826d80-3f40-11eb-85cc-ac0f47a917d0.png)
+
 ### Login Page
 
 ![Login](https://user-images.githubusercontent.com/63305945/102266346-54504100-3f3e-11eb-8f28-e62e192d9e25.png)
