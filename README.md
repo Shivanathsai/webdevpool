@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# webdevpool
-=======
 # WebDevPool
 
 ## What is this Project ?
@@ -8,7 +5,7 @@
 We have built an application where Tech persons(here we are targeting the developers community) can Create their profile, Update their experience and education and much more. 
 This web application will be a platform for Developers where developers can share their details like experience, company they work for and even showcase their work by connecting their github repositories to their profile. People visiting the website can post comments and like the other people post and can have a discussion on a post/topic. There will be a single user associated to every profile on the basis of their email. This webapp is little similar to linkedin but relates to developers' community.
 The user can share thoughts using create a post and other users can also like and comment on other’s posts.
-We will create this application for the recruitment purpose. So that recruiters can visit our application and can visit as many profiles and can select/contact the perfect fit employee for their company.
+We have created this application for the recruitment purpose also, so that recruiters can visit our application and can visit as many profiles and can select/contact the perfect fit employee for their company.
 
 ## Database:
  mongodb, moongose object document mapper.
@@ -59,7 +56,7 @@ Js library to handle global variable like json web token secret key, mongo cloud
 
 
 ### Frontend: 
-React, react-redux, redux-thunk, react-hooks.
+React, Redux, Redux-thunk, React-hooks.
 
 There is posts page, sign up, dashboard, profile page
 
@@ -79,49 +76,54 @@ The people from IT technical backgrounds, worldwide, students, learners, experts
 
 ## Screenshots Walkthrough:
 
-### Landing Page
+### Home Page
 
-![Screenshot (514)](https://user-images.githubusercontent.com/63305945/101983566-ed166080-3ca1-11eb-93a5-e3403bb49fbc.png)
+![Home Page](https://user-images.githubusercontent.com/63305945/102266269-371b7280-3f3e-11eb-98bf-414b5748c4d7.png)
 
 ### Register Page
 
-![register](https://user-images.githubusercontent.com/63305945/101695239-4449e480-3a9a-11eb-9fa0-f125b0a8d4c5.png)
+![Signup](https://user-images.githubusercontent.com/63305945/102266336-50242380-3f3e-11eb-84f2-713433fb4862.png)
 
 ### Login Page
 
-![login](https://user-images.githubusercontent.com/63305945/101695244-46ac3e80-3a9a-11eb-99db-9db7dbab0fe1.png)
+![Login](https://user-images.githubusercontent.com/63305945/102266346-54504100-3f3e-11eb-8f28-e62e192d9e25.png)
 
 ### User Dashboard Page
 
-![dashboard](https://user-images.githubusercontent.com/63305945/101695247-490e9880-3a9a-11eb-9806-9edf94854ed6.png)
+![Dashboard](https://user-images.githubusercontent.com/63305945/102266410-67fba780-3f3e-11eb-948a-3efde5b51fe4.png)
+
+![dashboard continued](https://user-images.githubusercontent.com/63305945/102266435-6fbb4c00-3f3e-11eb-9fa9-1e2cf7602351.png)
 
 ### All User Profiles Page
 
-![all profiles](https://user-images.githubusercontent.com/63305945/101695259-4e6be300-3a9a-11eb-8669-703a97898408.png)
+![all profiles](https://user-images.githubusercontent.com/63305945/102266627-b8730500-3f3e-11eb-83e0-bc1cdedc2972.png)
 
 ### Individual Profile Page
 
-![profile individual](https://user-images.githubusercontent.com/63305945/101695274-5461c400-3a9a-11eb-8d14-2889fb4af362.png)
+![profile individual](https://user-images.githubusercontent.com/63305945/102266634-bb6df580-3f3e-11eb-94ee-fe4f567b47d7.png)
 
 ### Individual Profile Page continued..
 
-![profile individual 2](https://user-images.githubusercontent.com/63305945/101695284-562b8780-3a9a-11eb-8974-ab586c08deab.png)
+![profile individual 2](https://user-images.githubusercontent.com/63305945/102266644-be68e600-3f3e-11eb-893d-cc0098aaa92c.png)
+
+### GitHub repos on Profile Page
+
+![github repos on profile](https://user-images.githubusercontent.com/63305945/102266677-c88ae480-3f3e-11eb-823c-a7e8b1880242.png)
 
 ### Posts Page
 
-![posts](https://user-images.githubusercontent.com/63305945/101695292-59267800-3a9a-11eb-919b-caf35c5cdee6.png)
+![posts](https://user-images.githubusercontent.com/63305945/102266687-cc1e6b80-3f3e-11eb-9bfe-eba412b3cd4a.png)
 
 ### Comments on Posts
 
-![comments on posts](https://user-images.githubusercontent.com/63305945/101695301-5c216880-3a9a-11eb-914c-b6b03ed2be62.png)
+![comments on posts](https://user-images.githubusercontent.com/63305945/102266713-d50f3d00-3f3e-11eb-81d9-a11875e1847e.png)
 
 ### Add Education Page
 
-![add education](https://user-images.githubusercontent.com/63305945/101695309-62174980-3a9a-11eb-9e90-e4725d37ca66.png)
+![add education](https://user-images.githubusercontent.com/63305945/102266731-d9d3f100-3f3e-11eb-920e-000281622990.png)
 
 ### Add Experience Page
 
-![add experience](https://user-images.githubusercontent.com/63305945/101695311-63e10d00-3a9a-11eb-857e-237d166e148e.png)
+![add experience](https://user-images.githubusercontent.com/63305945/102266736-dccee180-3f3e-11eb-887f-64b7826a2d82.png)
 
 
->>>>>>> a60a9216b5b671a5c93b4acff19d26841c9ea534
