@@ -94,7 +94,7 @@ The people from IT technical backgrounds, worldwide, students, learners, experts
 
 ![dashboard continued](https://user-images.githubusercontent.com/63305945/102266435-6fbb4c00-3f3e-11eb-9fa9-1e2cf7602351.png)
 
-### All User Profiles Page
+### All Users Profiles Page
 
 ![all profiles](https://user-images.githubusercontent.com/63305945/102266627-b8730500-3f3e-11eb-83e0-bc1cdedc2972.png)
 
