@@ -14,6 +14,8 @@ import Posts from "../posts/Posts";
 import Post from "../post/Post";
 import NotFound from "../layout/NotFound";
 import PrivateRoute from "../routing/PrivateRoute";
+// import Auth_buttons from '../auth/auth_buttons';
+// import blog from '../blog/user/CreateProfile/CreateProfile';
 
 const Routes = () => {
   return (
@@ -21,6 +23,7 @@ const Routes = () => {
       <Alert />
       <Switch>
         <Route exact path="/register" component={Register} />
+        {/* <Route exact path="/blog" component={blog} /> */}
         <Route exact path="/login" component={Login} />
         <PrivateRoute exact path="/profiles" component={Profiles} />
         <Route exact path="/profile/:id" component={Profile} />

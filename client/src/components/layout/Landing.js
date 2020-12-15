@@ -20,7 +20,7 @@ const Landing = ({ isAuthenticated }) => {
             WebDevPool helps you connect with other developers from all over the world.
           </p>
           <div className="buttons">
-            <Link style={{ backgroundColor: "black", color: "white" }} to="/register" className="btn btn-primary">
+            <Link style={{ backgroundColor: "black", color: "white",border:'none' }} to="/register" className="btn btn-primary">
               Get Started
             </Link>
           </div>

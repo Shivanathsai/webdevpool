@@ -12,20 +12,22 @@
 
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
+	margin: 0px;
+	padding: 0px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
+	/* font-size: 1rem; */
 	line-height: 1.6;
-	background-color: #fff;
-	color: #333;
+	background-color: lightgray;
+	/* color: #333;
 	background-image: url("./img/ball.jpg");
-	/* opacity: 80%; */
+	opacity: 80%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 }
 
 .dash {
@@ -250,7 +252,6 @@ img {
 .round-img {
 	border-radius: 50%;
 	width: 200px;
-
 	box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.911), 0 6px 20px 0 rgba(8, 2, 2, 0.699);
 }
 
@@ -356,6 +357,7 @@ button {
 	top: 0;
 	border-bottom: solid 1px var(--primary-color);
 	opacity: 0.9;
+	background-color: black;
 }
 
 .navbar ul {
@@ -382,7 +384,7 @@ button {
 /* Landing Page */
 .landing {
 	position: relative;
-	background: url("./img/fresh1.mp4") no-repeat center center/cover;
+	background: url("./img/cover.jpg") no-repeat center center/cover;
 	height: 100vh;
 }
 
@@ -619,9 +621,8 @@ button {
 
 /* Login Form */
 
-.login {
+/* .login {
 	display: flex;
-	position: relative;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 80px;
@@ -678,11 +679,11 @@ button {
 	margin-bottom: 20px;
 	width: 100px;
 	object-fit: contain;
-}
+} */
 
 /*  Register Form */
 
-.amazon-logo {
+/* .amazon-logo {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 100px;
@@ -748,7 +749,7 @@ select {
 
 .text-size {
 	font-size: 1.02rem;
-}
+} */
 
 video {
 	object-fit: cover;
@@ -758,8 +759,7 @@ video {
 	top: 0;
 	left: 0;
 }
-
-.form-blur {
-	filter: blur(2px);
-	-webkit-filter: blur(2spx);
+.navstyle {
+	background-color: red;
+	color:white;
 }

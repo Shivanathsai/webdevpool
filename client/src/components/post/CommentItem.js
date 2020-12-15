@@ -27,9 +27,10 @@ const CommentItem = ({
           <button
             onClick={() => deleteComment(postId, _id)}
             type="button"
+            style={{backgroundColor:'tomato'}}
             className="btn btn-danger"
           >
-            <i className="fas fa-times" />
+            <i style={{color: 'white'}}className="fas fa-times" />
           </button>
         )}
       </div>

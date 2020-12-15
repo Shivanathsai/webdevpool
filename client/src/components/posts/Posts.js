@@ -5,6 +5,7 @@ import Spinner from "../layout/Spinner";
 import PostItem from "./PostItem";
 import PostForm from "./PostForm";
 import { getPosts } from "../../actions/post";
+import Footer from '../layout/footer';
 
 const Posts = ({ getPosts, post: { posts, loading } }) => {
   useEffect(() => {
@@ -15,9 +16,9 @@ const Posts = ({ getPosts, post: { posts, loading } }) => {
     <Spinner />
   ) : (
       <Fragment>
-        <h1 className="large text-primary">Posts</h1>
-        <p className="lead">
-          <i className="fas fa-user" /> Welcome to the community
+        <h1 className="large text-primary" style={{textAlign:'center'}}>Posts</h1>
+        <p className="lead" style={{textAlign:'center'}}>
+          <i className="fas fa-user-secret" style={{color:"grey"}}/> Welcome to the community
       </p>
         <PostForm />
         <div className="posts">

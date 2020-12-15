@@ -58,11 +58,11 @@ const CreateProfile = ({
           <i className="fas fa-user-secret" /> Let's get some information to make your
         profile stand out
       </p>
-        <small>* = required field</small>
+        {/* <small>* = required field</small> */}
         <form className="form" onSubmit={(e) => onSubmit(e)}>
           <div className="form-group">
-            <select name="status" value={status} onChange={(e) => onChange(e)}>
-              <option value="0">* Select Professional Status</option>
+            <select name="status" value={status} onChange={(e) => onChange(e)} style={{borderRadius:'4px',fontSize:"15px"}}>
+              <option value="0"> Select Professional Status</option>
               <option value="Developer">Developer</option>
               <option value="Junior Developer">Junior Developer</option>
               <option value="Senior Developer">Senior Developer</option>
@@ -83,6 +83,7 @@ const CreateProfile = ({
               name="company"
               value={company}
               onChange={(e) => onChange(e)}
+              style={{borderRadius:'4px',fontSize:"15px"}}
             />
             <small className="form-text">
               Could be your own company or one you work for
@@ -95,9 +96,10 @@ const CreateProfile = ({
               name="website"
               value={website}
               onChange={(e) => onChange(e)}
+              style={{borderRadius:'4px',fontSize:"15px"}}
             />
             <small className="form-text">
-              Please enter the URL in form of https://example.com
+              Please enter the URL.
           </small>
           </div>
           <div className="form-group">
@@ -107,6 +109,7 @@ const CreateProfile = ({
               name="location"
               value={location}
               onChange={(e) => onChange(e)}
+              style={{borderRadius:'4px',fontSize:"15px"}}
             />
             <small className="form-text">
               City & state suggested (eg. Bangalore, Karnataka)
@@ -115,10 +118,11 @@ const CreateProfile = ({
           <div className="form-group">
             <input
               type="text"
-              placeholder="* Skills"
+              placeholder="Skills"
               name="skills"
               value={skills}
               onChange={(e) => onChange(e)}
+              style={{borderRadius:'4px',fontSize:"15px"}}
             />
             <small className="form-text">
               Please use comma separated values (eg. HTML,CSS,JavaScript,React)
@@ -131,6 +135,7 @@ const CreateProfile = ({
               name="githubusername"
               value={githubusername}
               onChange={(e) => onChange(e)}
+              style={{borderRadius:'4px',fontSize:"15px"}}
             />
             <small className="form-text">
               Include your GitHub username if you want your latest repos and a Github link
@@ -142,6 +147,7 @@ const CreateProfile = ({
               name="bio"
               value={bio}
               onChange={(e) => onChange(e)}
+              style={{borderRadius:'4px', height:"100px", fontSize:"15px"}}
             />
             <small className="form-text">Tell us a little about yourself</small>
           </div>
@@ -151,6 +157,7 @@ const CreateProfile = ({
               onClick={() => toggleSocialInputs(!displaySocialInputs)}
               type="button"
               className="btn btn-light"
+              style={{backgroundColor:'rgb(131, 127, 127)',color:'white', borderRadius:'4px', border:'none'}}
             >
               Add Social Network Links
           </button>
@@ -179,7 +186,7 @@ const CreateProfile = ({
                   onChange={(e) => onChange(e)}
                 />
               </div>
-
+              
               <div className="form-group social-input">
                 <i className="fab fa-youtube fa-2x" />
                 <input
@@ -215,7 +222,7 @@ const CreateProfile = ({
             </Fragment>
           )}
 
-          <input type="submit" className="btn btn-primary my-1" />
+          <input type="submit" className="btn btn-primary my-1" style={{backgroundColor:"darkOrange",borderRadius:"4px",border:"none"}}/>
           <Link className="btn btn-light my-1" to="/dashboard">
             Go Back
         </Link>
