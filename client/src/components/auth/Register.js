@@ -17,8 +17,8 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
     password2: "",
   });
 const [modalIsOpen, setmodalIsOpen] = useState(false);
-
-  const { name, email, password, password2 } = formData;
+const [RedirectToDashboard, setRedirectToDashboard] = useState(false);
+const { name, email, password, password2 } = formData;
 
   // making a controlled component
   const onChange = (e) =>
@@ -54,6 +54,7 @@ const [modalIsOpen, setmodalIsOpen] = useState(false);
   };
   const addModalClose = () => {
     setmodalIsOpen(false);
+    setRedirectToDashboard(true)
   }
 
   const sendLink = (
@@ -67,7 +68,7 @@ const [modalIsOpen, setmodalIsOpen] = useState(false);
     <Redirect to='/register'></Redirect>
   );
 
- if(isAuthenticated){
+ if(isAuthenticated && RedirectToDashboard){
     return <Redirect to='/dashboard'></Redirect> 
   }
 
@@ -117,7 +118,7 @@ const [modalIsOpen, setmodalIsOpen] = useState(false);
           <p>
             Already have an account? <Link style={{ fontSize: "1.1rem", fontWeight: "bold", textDecoration: "underline" }} to="/login">Sign in</Link>
           </p>
-          {/* <div>{isAuthenticated ? sendLink : onsame}</div> */}
+          <div>{isAuthenticated ? sendLink : onsame}</div>
         </form>
       </div>
     </div>

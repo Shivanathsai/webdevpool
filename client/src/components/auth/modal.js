@@ -23,8 +23,8 @@ class Modal1 extends Component {
                     <Modal.Body>
                         <h4>Hello {this.props.name}.</h4>
                         <p>
-                        Congratulations, you have Successfully created a WebDevPool account.<br /><br />
-                        Please check the Email or directly go for Signin.<br />
+                        Congratulations,<br /> 
+                        you have Successfully created a WebDevPool account.<br /><br />
                         Thank you !                        
                         </p>
                     </Modal.Body>
